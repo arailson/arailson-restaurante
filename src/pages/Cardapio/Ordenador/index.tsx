@@ -22,7 +22,7 @@ export default function Ordenar({ ordenador, setOrdenador }: Props) {
       onClick={() => setAberto(!aberto)}
       onBlur={() => setAberto(false)}
     >
-      <span>{nomeOrdenador || "Ordenador Por"}</span>
+      <span>{nomeOrdenador  || "Ordenador Por"}</span>
       {aberto ? (
         <MdKeyboardArrowUp size={20} />
       ) : (
