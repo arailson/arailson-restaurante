@@ -5,8 +5,8 @@ import Cardapio from "./pages/Cardapio";
 import "normalize.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Cardapio />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <Cardapio />
+    </React.StrictMode>,
+    document.getElementById("root")
 );
