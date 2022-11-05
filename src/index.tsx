@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Cardapio from "./pages/Cardapio";
-import "normalize.css"
+import "normalize.css";
 
 ReactDOM.render(
   <React.StrictMode>
