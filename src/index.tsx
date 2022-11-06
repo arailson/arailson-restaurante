@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Cardapio from "./pages/Cardapio";
 import "normalize.css";
-import Inicio from "pages/Inicio";
+import BrowserRouter from "./routes";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Inicio />
-    </React.StrictMode>,
-    document.getElementById("root")
+  <React.StrictMode>
+    <BrowserRouter />
+  </React.StrictMode>,
+  document.getElementById("root")
 );

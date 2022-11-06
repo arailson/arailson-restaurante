@@ -15,9 +15,7 @@ export default function Inicio() {
             <div className={styles.recomendado__imagem}>
               <img src={item.photo} alt={item.title} />
             </div>
-            <button className={styles.recomendado__botao}>
-              Ver mais
-            </button>
+            <button className={styles.recomendado__botao}>Ver mais</button>
           </div>
         ))}
       </div>
