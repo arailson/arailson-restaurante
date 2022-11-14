@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function AppRouter() {
   return (
-    <main>
+    <main className="container">
       <BrowserRouter>
         <Menu />
         <Routes>
